@@ -1,0 +1,14 @@
+<table class="table table-striped">
+  <tr>
+      <td>Player</td>
+      <td>Points</td>
+      <td>Wins</td>
+      <td>Correct</td>
+  </tr>
+  <tr *ngFor="let ranking of rankings ">
+    <td>{{ ranking.player }}</td>
+    <td>{{ ranking.points }}</td>
+    <td>{{ ranking.wins }}</td>
+    <td>{{ ranking.correct }}</td>
+  </tr>
+</table>
